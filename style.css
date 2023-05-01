@@ -65,7 +65,7 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
     display: grid;
     place-items: center;
-    background-image: url('images/pattern-background-mobile.svg');
+    background-image: url('pattern-background-mobile.svg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
@@ -163,9 +163,9 @@ a:active {
     color: var(--clr-secondary-700);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 680px) {
     body {
-        background-image: url('images/pattern-background-desktop.svg');
+        background-image: url('pattern-background-desktop.svg');
     }
 
     h1 {
